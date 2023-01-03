@@ -3,10 +3,11 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      color: {
-        'black': '#171717',
-        'white': '#F8F8F8'
-      }
+      colors: {
+        'base-black': '#171717',
+        'base-white': '#F8F8F8',
+        'base-red': '#FF304D',
+      },
     },
   },
   plugins: [],
