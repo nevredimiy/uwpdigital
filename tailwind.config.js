@@ -13,8 +13,15 @@ module.exports = {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-3deg)' },
           '50%': { transform: 'rotate(3deg)' },
+        },
+        moveTo: {
+          '50%': { left: '0' },
+          '100%': { left: '100%' },
         }
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(#FF304D,#171717)',
+      }
     },
   },
   plugins: [],
