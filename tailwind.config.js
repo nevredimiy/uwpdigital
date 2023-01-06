@@ -2,7 +2,24 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    screens: {
+      '2xl': '1650px',
+      'xl': '1280px',
+      'lg': '1024px',
+      'md': '820px',
+
+    },
+    container: {
+      padding: {
+        DEFAULT: '1.25rem',
+        md: '30px',
+      }
+    },
     extend: {
+      gridTemplateColumns: {
+        '2col': '25% 75%',
+        '3col': '20% 40% 40%',
+      },
       colors: {
         'base-black': '#171717',
         'base-white': '#F8F8F8',
